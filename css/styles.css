@@ -301,6 +301,33 @@ button {
   color: #434455;
 }
 
+.list-link-section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.link-section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-section-two:hover,
+.link-section-two:focus {
+  background-color: #404bbf;
+}
+
+.icon-section-two {
+  fill: #f4f4fd;
+}
 /* #endregion section2 */
 
 /* #region section3 */

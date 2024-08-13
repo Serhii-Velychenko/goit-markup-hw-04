@@ -446,7 +446,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .link-footer {
